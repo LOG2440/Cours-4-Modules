@@ -1,0 +1,1 @@
+const TEAM_APP = {}

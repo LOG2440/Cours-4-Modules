@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exemple d'utilisation de plusieurs scripts</title>
+  </head>
+  <body>
+    <h1>Équipes</h1>
+    <ul id="team-display"></ul>
+    <hr />
+    <label for="team-input">Nouvelle équipe : </label>
+    <input id="team-input" type="text" maxlength="40" />
+    <button id="submit-btn" type="submit">Ajouter</button>
+    <!--Ordre des scripts est important-->
+    <script src="teams.js"></script>
+    <script src="domHandler.js"></script>
+  </body>
+</html>
