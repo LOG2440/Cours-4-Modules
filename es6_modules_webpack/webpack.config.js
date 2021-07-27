@@ -6,7 +6,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "build"), // destination
     filename: "bundle.js", // nom du bundle final
-    clean: true, // le répertoire de destionation est vidée à chaque fois
+    clean: true, // le répertoire de destination est vidée à chaque fois
   },
   mode: "development",
   plugins: [

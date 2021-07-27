@@ -9,7 +9,7 @@ function addTeamToDOM(team) {
 }
 
 document.getElementById("submit-btn").addEventListener("click", () => {
-  let input = document.getElementById("team-input");
+  const input = document.getElementById("team-input");
   if (input.value.length > 0) {
     addTeamToDOM(input.value);
     input.value = "";

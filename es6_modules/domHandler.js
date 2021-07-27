@@ -16,7 +16,7 @@ function addTeamToDOM(team) {
 }
 
 document.getElementById("submit-btn").addEventListener("click", () => {
-  let input = document.getElementById("team-input");
+  const input = document.getElementById("team-input");
   if (utils.isInRangeOf(input.value, 0, 40)) {
     utils.printToConsole(splitBySpace(input.value));
     addTeamToDOM(input.value);
