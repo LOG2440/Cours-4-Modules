@@ -18,6 +18,6 @@ module.exports = {
     }),
   ],
   devServer: { // serveur de dev de WebPack, fait le bundling à chaque fois
-    contentBase: "./build",
+    static: "./build",
   },
 };
