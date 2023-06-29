@@ -41,9 +41,11 @@ Si vous ouvrez `bundle.js`, vous vérez le code JS minifié. Même chose pour `i
 
 ## [ESbuild](https://esbuild.github.io/)
 
-Bundler très rapide pour le JS. Par défaut, ne copie pas les fichiers HTML et nécessite plus de configuration et/ou des outils pour faire le tout en même temps.
+Bundler très rapide pour le code JS. Par défaut, ne copie pas les fichiers HTML et nécessite plus de configuration et/ou des outils pour faire le tout en même temps.
 
 `esbuild src/domHandler.js --bundle --minify --outfile=build/bundle.js`
+
+ESbuild est écrit en `Go` et est généralement plus rapide que WebPack. Il est possible de combiner l'écosystème de WebPack avec ESbuild également.
 
 ## [Parcel](https://parceljs.org/)
 
@@ -54,6 +56,8 @@ Nécessite la présence d'une balise \<script> dans le HTML comme point d\'entr�
 `parcel build src/index.html`
 
 Génère les dépendances dans un répertoire `dist`, mais les développeurs n'ont pas le contrôle sur l'arborescence et la nommenclature exacte des fichiers.
+
+Parcel utilise [SWC](https://swc.rs/), un compilateur très rapide écrit en `Rust`.
 
 ## [Rollup](https://rollupjs.org/)
 
