@@ -2,7 +2,6 @@
   "name": "webpack_example",
   "version": "1.0.0",
   "description": "Exemple simple de commonJS et WebPack bundler pour un navigateur",
-  "main": "team_app.js",
   "scripts": {
     "dev": "webpack serve --open",
     "start": "lite-server",
@@ -12,10 +11,10 @@
   "author": "Nikolay Radoev",
   "license": "CC-BY",
   "devDependencies": {
-    "html-webpack-plugin": "5.5.0",
-    "lite-server": "2.6.1",
-    "webpack": "5.74.0",
-    "webpack-cli": "4.10.0",
-    "webpack-dev-server": "4.10.0"
+    "html-webpack-plugin": "5.5.3",
+    "lite-server": "^2.6.1",
+    "webpack": "5.88.1",
+    "webpack-cli": "5.1.4",
+    "webpack-dev-server": "4.15.1"
   }
 }
