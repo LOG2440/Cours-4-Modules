@@ -1,13 +1,11 @@
-(function () {
+TEAM_APP.getTeams = (function () {
   const teams = [
     "Canadiens de Montréal",
     "Tampa Bay Lightning",
     "Buffalo Sabres",
   ];
 
-  function getTeams() {
+  return function getTeams() {
     return teams;
   }
-
-  TEAM_APP.getTeams = getTeams;
 })();
