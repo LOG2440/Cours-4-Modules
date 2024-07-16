@@ -10,22 +10,13 @@ Le résultat final sera généré dans le répertoire `build` .
 
 # Lancement du site
 
-Lancer la commande `npm start` pour lancer le serveur lite-server.
+Lancer la commande `npm start` pour lancer le serveur `http-server`.
 
 Le site s'ouvrira sur le port 3000 sur votre machine.
-
-**OU**
-
-Lancer la commande `npm run dev` pour lancer le serveur de développement de Webpack.\
-Ceci peut se faire sans avoir exécuté `npm build` avant.
-
-Le site s'ouvrira sur le port 8080 sur votre machine.
 
 ## Configuration des options
 
 Le fichier `webpack.config.js` présente les options pour Webpack.
-
-Le fichier `bs-config.json` présente les options pour Lite-Server.
 
 ### Changement de mode de _bundle_
 
